@@ -21,7 +21,6 @@ function App() {
       let URL_KEY = `https://newsdata.io/api/1/news?apikey=pub_26807d055cc63d04745a09599882a3e24adc3&language=es&category=${category}`;
       const respuesta = await fetch(URL_KEY);
       const dato = await respuesta.json();
-      console.log("file: App.jsx:32 ~ consultarApi ~ dato:", dato);
       setNoticias(dato.results);
       setLoading(false);
     } catch (error) {
