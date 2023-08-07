@@ -2,15 +2,16 @@
 
 En este proyecto lo que hicimos fue crear una app que muestra por pantalla una lista de noticias, consumiendo la API **https://newsdata.io/**.
 
-La App cuenta con un selector por categorías, el cual al ser elegidos por el usuario nos traen los datos mostrando por pantalla la lista de noticias relacionada con la elección.
+La App cuenta con un selector por categorías de noticias, el cual al ser elegidos por el usuario nos traen los datos de la noticia, mostrando por pantalla la lista de noticias relacionada con la elección en distintas cards.
 
-Cada una de las noticias esta trabajada de forma tal que su background cambia de color dependiendo de la categoría de la noticia.
+Cada una de las noticias esta trabajada de forma tal que el background de la card cambia de color dependiendo de la categoría de la noticia.
+
+Ademas de hacer la re dirección a la fuente de la noticia.
 
 Ademas en caso de no existir ningún tipo de noticia relacionada con la categoría seleccionada por el usuario
 se muestra una card por pantalla con el mensaje:
 
 > 'No hay noticias relacionadas con esa categoría o país. Por favor intenta con otra categoría o país!'
-
 
 ## Tecnologias / Herramientas ⚙
 
